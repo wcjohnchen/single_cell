@@ -33,7 +33,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Datasets. <i>scRNA-seq<i>: data were obtain from ().  Ten samples () were used in this study.  <i>sc-ATAC-seq<i>: data were from ().  Single sample () was used.
+Datasets. <i>scRNA-seq</i>: data were obtain from ().  Ten samples () were used in this study.  <i>sc-ATAC-seq</i>: data were from ().  Single sample () was used.
 
 <br>
 
