@@ -1,8 +1,5 @@
 # Single-Cell Transcriptomic and Chromatin Accessibility Profiling Identify Heterogenous Alternative Polyadenylation Gene Expression in Cell Types of Breast Cancer Microenvironment
 
-<br>
-Single-cell sequencing is a useful technique to study gene regulation of individual cells.  With publicly available single-cell RNA-seq (scRNA-seq) and single-cell ATAC-seq (scATAC-seq) datasets, we further explore alternative polyadenylation, one of the main mechanisms of gene regulation, in a breast cancer model.
-
 
 <br>
 
@@ -29,6 +26,7 @@ VIII. References
 
 ## I. Introduction
 
+Single-cell sequencing is a useful technique to study gene regulation of individual cells.  With publicly available single-cell RNA-seq (scRNA-seq) and single-cell ATAC-seq (scATAC-seq) datasets, we further explore alternative polyadenylation, one of the main mechanisms of gene regulation, in a breast cancer model.
 
 
 <br>
