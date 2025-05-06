@@ -102,7 +102,7 @@ Bioinformatics
 
 PAS: polyA site <br>
 
-TES: Transcription end site
+
 
 
 <br>
