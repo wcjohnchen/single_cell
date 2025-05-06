@@ -33,9 +33,11 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Datasets.
+Datasets. <i>scRNA-seq<i>: data were obtain from ().  Ten samples () were used in this study.  <i>sc-ATAC-seq<i>: data were from ().  Single sample () was used.
 
+<br>
 
+Data processing.
 
 
 <br>
@@ -49,37 +51,19 @@ There are many diseases associated with cleavage and polyadenlyation activites, 
 
 <br>
 
-Figure 1.  Feature correlation of TR PASs.  Pearson correlation was used for comparison.
+Figure.  .
 
 <img src="figure/tr_corrmatrix.png" style="width: 50%; height: 50%;">
 
 
 <br>
 
-Figure 2.  Profiling of cancer-associated genes, FIP1L1 and CSTF2.
+Figure.  Profiling of cancer-associated genes, FIP1L1 and CSTF2.
 
 <img src="figure/genes_FIP1L1_CSTF2.png" style="width: 50%; height: 50%;">
 
 
-<br>
 
-Figure 3.  Profiling of age-related gene, RRAS2.
-
-<img src="figure/gene_RRAS2.png" style="width: 50%; height: 50%;">
-
-
-<br>
-
-Figure 4.  Profiling of skin-related gene, NUDT21.
-
-<img src="figure/gene_NUDT21.png" style="width:75%; height:75%;">
-
-
-<br>
-
-Figure 5.  PAS usage prediction using APARENT2.  3'UTR Shortening: delta log-odds-narrow < 0.  3'UTR lengthening: delat log-odds-narrow > 0.
-
-<img src="figure/plot_APARENT2.png" style="width:25%; height:25%;">
 
 
 
