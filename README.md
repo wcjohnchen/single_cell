@@ -33,29 +33,10 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Datasets.  Data were originally sourced from PolyADB4-LR database, reference to PolyA_DB V3.2 (https://exon.apps.wistar.org/polya_db/v3/).  Surrounding nucleotide sequences for PAS genomic location were extracted from BSgenome.Hsapien.UCSC.hg38 package using R.
+Datasets.
 
-Models.  <i>PolyAID</i>: a deep learning model that consists of a single 1-D convolutional layer and a single bidirectional long short-term memory (LSTM) layer (Stroup <i>et al.</i>, 2023).  Input sequence is one-hot encoded.  And output generates a classification probability for putative PAS within the sequence.  <i>PolyAStrength</i>: a deep learning model with a 1-D convolutional layer and a LSTM layer that calculates a strength score for PAS usage level based on the one-hot encoded input sequence (Stroup <i>et al.</i>, 2023).  <i>PolyA_SVM</i>: a classical machine learing model, support vector machine, that predicts putative PAS based on surrounding <i>cis</i> element motifs (Cheng <i>et al.</i>, 2005).  <i>APARENT2</i>: a deep learning model that is composed of an architecture of residual blocks with input sequence represented by one-hot encoding (Linder <i>et al.</i>, 2022).  The model is used for determining gene's preference between short and long isoforms.
 
-<br>
 
-Table 1.  Column Description.  Also see PolyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
-
-| Column | Description |
-| ---- | ---- |
-|Key |Unique identification for PAS (gene symbol : chromosome : strand : position : type). |
-|Gene Symbol |Abbreviation for gene name. |
-|PasID |PAS identification (chromosome : strand : position). |
-|Type |Long-read-TES-supported polyA site category: TR: PAS found in terminal regions, in which the regions are identified as aggregated overlapping 3’-most exon of isoform of each gene by RefSeq TES annotation; UR: upstream regions of TR;  DR: downstream regions of TR. |
-|PSE |Percentage of samples which PASs were expressed. |
-|AvgRPM |Mean RPM of PAS. |
-|mm10_pAid |Conserved sites in mouse genome (mm10). Non-conserved sites are labeled as "nc". |
-|NumRefSeq |Number of the PAS reads annotated by RefSeq TESs. |
-|NumLENCODE |Number of long-read TESs (from the ENCODE4 PacBio IsoSeq dataset) that were matched to the PAS location. |
-|NumLRGETx |Number of long-read TESs (from the GTEx V9 ONT cDNA dataset) that were matched to the PAS location. |
-|polyAID |Classification probability for putative PAS within a sequence expected to occur (https://github.com/zhejilab/PolyaModelsHuman). |
-|polyAStregth |Score for the usage level of PAS (https://github.com/zhejilab/PolyaModelsHuman). |
-|SVM |Predicted PAS probability by support vector machine (polya_svm v1.1: https://exon.apps.wistar.org/polya_svm/). |
 
 <br>
 
@@ -139,8 +120,6 @@ Bogard N, Linder J, Rosenberg AB, and Seelig G. 2019.  A Deep Neural Network for
 
 Chen M, Lyu G, Han M, Nie H, Shen T, Chen W, Niu Y, Song Y, Li X, Li H, Chen X, Wang Z, Xia Z, Li W, Tian XL, Ding C, Gu J, Zheng Y, Liu X, Hu J, Wei G, Tao W, and Ni T.  2018.  3' UTR lengthening as a novel mechanism in regulating cellular senescence.  Genome Res, 28(3):285-294.  doi: 10.1101/gr.224451.117.
 
-Cheng Y, Miura RM, and Tian B.  2006.  Prediction of mRNA polyadenylation sites by support vector machine.  Bioinformatics, 22(19):2320-5.  doi: 10.1093/bioinformatics/btl394.
-
 Davis AG, Johnson DT, Zheng D, Wang R, Jayne ND, Liu M, Shin J, Wang L, Stoner SA, Zhou JH, Ball ED, Tian B, and Zhang DE.  2022.  Alternative polyadenylation dysregulation contributes to the differentiation block of acute myeloid leukemia.  Blood, 139(3):424-438.  doi: 10.1182/blood.2020005693.
 
 Goering R, Engel KL, Gillen AE, Fong N, Bentley DL, and Taliaferro JM.  2021.  LABRAT reveals association of alternative polyadenylation with transcript localization, RNA binding protein expression, transcription speed, and cancer survival.  BMC Genomics, 26;22(1):476.  doi: 10.1186/s12864-021-07781-1.
@@ -150,10 +129,6 @@ Li W, You B, Hoque M, Zheng D, Luo W, Ji Z, Park JY, Gunderson SI, Kalsotra A, M
 Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2.  Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
 
 Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease.  Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
-
-Wang R, Nambiar R, Zheng D, and Tian B.  2017.  PolyA_DB 3 catalogs cleavage and polyadenylation sites identified by deep sequencing in multiple genomes.  Nucleic Acids Res, 46(D1):D315-D319.  doi: 10.1093/nar/gkx1000.
-
-Weng T, Huang J, Wagner EJ, Ko J, Wu M, Wareing NE, Xiang Y, Chen NY, Ji P, Molina JG, Volcik KA, Han L, Mayes MD, Blackburn MR, and Assassi S.  2020.  Downregulation of CFIm25 amplifies dermal fibrosis through alternative polyadenylation.  J Exp Med, 217(2):e20181384.  doi: 10.1084/jem.20181384.
 
 Xia Z, Donehower LA, Cooper TA, Neilson JR, Wheeler DA, Wagner EJ, and Li W.  2014.  Dynamic analyses of alternative polyadenylation from RNA-seq reveal a 3'-UTR landscape across seven tumour types.  Nat Commun, 5:5274.  doi: 10.1038/ncomms6274.
 
