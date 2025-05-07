@@ -33,7 +33,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Datasets. <i>scRNA-seq</i>: data were obtain from ().  Ten samples () were used in this study.  <i>sc-ATAC-seq</i>: data were from ().  Single sample () was used.
+Datasets. <i>scRNA-seq</i>: data were obtain from NCBI GEO acession GSE176078 (Wu <i>et al.</i>, 2021).  Ten samples (ER+, primary breast tumor: CID3941, CID4040, CID4463, CID4535; HER2+, primary breast tumor: CID3838, CID3921, CID45171; triple-negative breast cancer (TNBC), primary breast tumor: CID3946, CID4465, CID44041) were selected in this study.  <i>scATAC-seq</i>: data were from ().  Single sample () was used.
 
 <br>
 
