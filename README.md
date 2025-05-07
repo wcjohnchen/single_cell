@@ -26,14 +26,14 @@ VIII. References
 
 ## I. Introduction
 
-Single-cell sequencing is a useful technique to study gene regulation of individual cells.  With publicly available single-cell RNA-seq (scRNA-seq) and single-cell ATAC-seq (scATAC-seq) datasets, we further explore alternative polyadenylation, one of the main mechanisms of gene regulation, in a breast cancer model.
+Single-cell sequencing is a useful technique to study gene regulation of individual cells.  With single-cell RNA-seq (scRNA-seq) and single-cell ATAC-seq (scATAC-seq) datasets publicly available, we further explore alternative polyadenylation, one of the main mechanisms of gene regulation, in a breast cancer model.
 
 
 <br>
 
 ## II. Methods
 
-Datasets. <i>scRNA-seq</i>: data were obtain from NCBI GEO acession GSE176078 (Wu <i>et al.</i>, 2021).  Ten samples (ER+, primary breast tumor: CID3941, CID4040, CID4463, CID4535; HER2+, primary breast tumor: CID3838, CID3921, CID45171; triple-negative breast cancer (TNBC), primary breast tumor: CID3946, CID4465, CID44041) were selected in this study.  <i>scATAC-seq</i>: data were from ().  Single sample () was used.
+Datasets. <i>scRNA-seq</i>: data were obtained from NCBI GEO accession GSE176078 (Wu <i>et al.</i>, 2021).  Ten samples (ER+, primary breast tumor: CID3941, CID4040, CID4463, CID4535; HER2+, primary breast tumor: CID3838, CID3921, CID45171; triple-negative breast cancer (TNBC), primary breast tumor: CID3946, CID4465, CID44041) were selected in this study.  <i>scATAC-seq</i>: data (MCF-7 DMSO) were obtained from GEO accession GSE190162 (Bommi-Reddy <i>et al.</i>, 2022).
 
 <br>
 
