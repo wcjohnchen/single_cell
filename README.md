@@ -102,19 +102,8 @@ PAS: polyA site <br>
 
 Bogard N, Linder J, Rosenberg AB, and Seelig G. 2019.  A Deep Neural Network for Predicting and Engineering Alternative Polyadenylation.  Cell, 178(1):91-106.e23.  doi: 10.1016/j.cell.2019.04.046.
 
-Chen M, Lyu G, Han M, Nie H, Shen T, Chen W, Niu Y, Song Y, Li X, Li H, Chen X, Wang Z, Xia Z, Li W, Tian XL, Ding C, Gu J, Zheng Y, Liu X, Hu J, Wei G, Tao W, and Ni T.  2018.  3' UTR lengthening as a novel mechanism in regulating cellular senescence.  Genome Res, 28(3):285-294.  doi: 10.1101/gr.224451.117.
-
-Davis AG, Johnson DT, Zheng D, Wang R, Jayne ND, Liu M, Shin J, Wang L, Stoner SA, Zhou JH, Ball ED, Tian B, and Zhang DE.  2022.  Alternative polyadenylation dysregulation contributes to the differentiation block of acute myeloid leukemia.  Blood, 139(3):424-438.  doi: 10.1182/blood.2020005693.
-
-Goering R, Engel KL, Gillen AE, Fong N, Bentley DL, and Taliaferro JM.  2021.  LABRAT reveals association of alternative polyadenylation with transcript localization, RNA binding protein expression, transcription speed, and cancer survival.  BMC Genomics, 26;22(1):476.  doi: 10.1186/s12864-021-07781-1.
-
-Li W, You B, Hoque M, Zheng D, Luo W, Ji Z, Park JY, Gunderson SI, Kalsotra A, Manley JL, and Tian B.  2015.  Systematic profiling of poly(A)+ transcripts modulated by core 3' end processing and splicing factors reveals regulatory rules of alternative cleavage and polyadenylation.  PLoS Genet, 11(4):e1005166.  doi: 10.1371/journal.pgen.1005166.
-
 Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2.  Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
 
 Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease.  Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
 
-Xia Z, Donehower LA, Cooper TA, Neilson JR, Wheeler DA, Wagner EJ, and Li W.  2014.  Dynamic analyses of alternative polyadenylation from RNA-seq reveal a 3'-UTR landscape across seven tumour types.  Nat Commun, 5:5274.  doi: 10.1038/ncomms6274.
-
-Zheng D, Liu X, and Tian B.  2016.  3'READS+, a sensitive and accurate method for 3' end sequencing of polyadenylated RNA.  RNA, 22(10):1631-9.  doi: 10.1261/rna.057075.116.
 
