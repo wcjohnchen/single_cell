@@ -57,9 +57,9 @@ Figure 1.  UMAP presentation of cell type clusters in scRNA-seq samples.
 
 <br>
 
-Figure.  Profiling of cancer-associated genes, FIP1L1 and CSTF2.
+Figure.  Cell type identification by Biomarker genes.  CD3E (T cell).  COL1A2 (fibroblast cell).  CD14 (macrophage).  PECAM1 (vein endothelial cell).  CLDN4 (luminal L1 cell).  ANKRD30A (luminal L2 cell).  IGHG1 (plasma cell).
 
-<img src="figure/genes_FIP1L1_CSTF2.png" style="width: 50%; height: 50%;">
+<img src="figure/biomarkers_scrnaseq.png" style="width: 80%; height: 80%;">
 
 
 
