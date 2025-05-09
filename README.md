@@ -54,12 +54,15 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 
 (A)
+
 <img src="figure/UMAP_sample_scrnaseq.png" style="width: 80%; height: 80%;">
 
 (B)
+
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 (C)
+
 <img src="figure/biomarkers_scrnaseq.png" style="width: 120%; height: 120%;">
 
 
