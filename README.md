@@ -87,7 +87,7 @@ Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tu
 
 (D)
 
-<img src="figure/biomarkers_scaatacseq.png" style="width: 80%; height: 80%;">
+<img src="figure/biomarkers_scatacseq.png" style="width: 80%; height: 80%;">
 
 
 
