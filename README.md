@@ -52,7 +52,7 @@ There are many diseases associated with cleavage and polyadenlyation activites, 
 
 Figure.  UMAP presentation of cell types in scRNA-seq samples.
 
-<img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 100%; height: 100%;">
+<img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 
 <br>
