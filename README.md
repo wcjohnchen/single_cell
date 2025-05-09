@@ -66,7 +66,7 @@ Figure 2.  Cell type identification by Biomarker genes.  CD3E (T cell).  COL1A2 
 
 Figure 3.  Dotplot.
 
-<img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 35%; height:35%;">
+<img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 40%; height: 40%;">
 
 
 
