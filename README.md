@@ -50,21 +50,28 @@ There are many diseases associated with cleavage and polyadenlyation activites, 
 
 <br>
 
-Figure 1.  UMAP presentation of cell type clusters in scRNA-seq samples.
+Figure 1.  UMAP presentation of sample clusters in scRNA-seq breast tumor samples.
+
+<img src="figure/UMAP_sample_scrnaseq.png" style="width: 80%; height: 80%;">
+
+
+<br>
+
+Figure 2.  UMAP presentation of cell type clusters in scRNA-seq breast tumor samples.
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 
 <br>
 
-Figure 2.  Cell type identification by biomarker genes.  CD3E (T cell).  COL1A2 (fibroblast cell).  CD14 (macrophage).  PECAM1 (vein endothelial cell).  CLDN4 (luminal L1 cell).  ANKRD30A (luminal L2 cell).  IGHG1 (plasma cell).
+Figure 3.  Cell type identification by biomarker genes.  CD3E (T cell).  COL1A2 (fibroblast cell).  CD14 (macrophage).  PECAM1 (vein endothelial cell).  CLDN4 (luminal L1 cell).  ANKRD30A (luminal L2 cell).  IGHG1 (plasma cell).
 
 <img src="figure/biomarkers_scrnaseq.png" style="width: 120%; height: 120%;">
 
 
 <br>
 
-Figure 3.  Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  (0) T-cell; (1) fibroblast cell; (2) macrophage; (3) vascular endothelial cell; (4) luminal L1 cell; (5) luminal L2 cell; (6) plasma cell.
+Figure 4.  Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  (0) T-cell; (1) fibroblast cell; (2) macrophage; (3) vascular endothelial cell; (4) luminal L1 cell; (5) luminal L2 cell; (6) plasma cell.
 
 <img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 40%; height: 40%;">
 
