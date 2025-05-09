@@ -59,7 +59,7 @@ Figure 1.  UMAP presentation of cell type clusters in scRNA-seq samples.
 
 Figure.  Cell type identification by Biomarker genes.  CD3E (T cell).  COL1A2 (fibroblast cell).  CD14 (macrophage).  PECAM1 (vein endothelial cell).  CLDN4 (luminal L1 cell).  ANKRD30A (luminal L2 cell).  IGHG1 (plasma cell).
 
-<img src="figure/biomarkers_scrnaseq.png" style="width: 80%; height: 80%;">
+<img src="figure/biomarkers_scrnaseq.png" style="width: 120%; height: 120%;">
 
 
 
