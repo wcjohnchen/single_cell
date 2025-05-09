@@ -50,7 +50,7 @@ There are many diseases associated with cleavage and polyadenlyation activites, 
 
 <br>
 
-Figure.  UMAP presentation of cell types in scRNA-seq samples.
+Figure 1.  UMAP presentation of cell type clusters in scRNA-seq samples.
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
