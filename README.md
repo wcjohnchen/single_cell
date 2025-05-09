@@ -50,7 +50,7 @@ There are many diseases associated with cleavage and polyadenlyation activites, 
 
 <br>
 
-Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-seq breast tumor samples.  (3) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).
+Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-seq breast tumor samples.  (3) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  (0) T-cell; (1) fibroblast cell; (2) macrophage; (3) vascular endothelial cell; (4) luminal L1 cell; (5) luminal L2 cell; (6) plasma cell.
 
 
 (A)
@@ -65,10 +65,7 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 <img src="figure/biomarkers_scrnaseq.png" style="width: 120%; height: 120%;">
 
-
-<br>
-
-Figure 2.  Dotplot of gene expression profile of cell types identified in breast tumor samples.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  (0) T-cell; (1) fibroblast cell; (2) macrophage; (3) vascular endothelial cell; (4) luminal L1 cell; (5) luminal L2 cell; (6) plasma cell.
+(D)
 
 <img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 40%; height: 40%;">
 
