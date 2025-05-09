@@ -73,7 +73,7 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 Figure 2.  UMAP presentation of cell type clusters in a scATAC-seq breast tumor sample.
 
-<img src="figure/UMAP_sample_scatacseq.png" style="width: 80%; height: 80%;">
+<img src="figure/UMAP_cell_type_scatacseq.png" style="width: 80%; height: 80%;">
 
 
 
