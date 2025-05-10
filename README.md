@@ -70,8 +70,9 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 <img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 40%; height: 40%;">
 
 
+<br>
 
-Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tumor sample.  There are two majors clusters: (B) luminal epithelial sell Of mammary gland, and (C) fibroblast Of breast.  (D) Cell type identification by biomarker genes: PARD6B (luminal epithelial sell Of mammary gland)), and CCND2 (fibroblast Of breast).
+Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tumor sample.  There are two majors clusters: (B) luminal epithelial sell Of mammary gland, and (C) fibroblast Of breast.  (D) Cell type identification by biomarker genes: PARD6B (luminal epithelial sell Of mammary gland), and CCND2 (fibroblast Of breast). (E) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown).
 
 (A)
 
@@ -88,6 +89,9 @@ Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tu
 (D)
 
 <img src="figure/biomarkers_scatacseq.png" style="width: 65%; height: 65%;">
+
+(E)
+
 
 
 
