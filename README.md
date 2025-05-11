@@ -123,7 +123,7 @@ PAS: polyA site <br>
 
 ## VII. Acknowledgements
 
-
+I would like to kindly thank Dr. Bin Tian's lab for data availability on PAS and contribution.
 
 
 <br>
