@@ -43,9 +43,9 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 ## III. Results
 
-PASs in the terminal regions, i.e. the 3'UTR regions, were examined in this study.  There are 247,852 unique TR PASs, which are associated with 29,434 unique genes.  Correlations between PAS features were compared (Figure 1).  The correlations bewtween the three models were as follow: PolyAID vs PolyAStrength: 0.61; PolyAID vs PolyA_SVM: 0.55; and PolyAStrength vs PolyA_SVM: 0.52.  
+<i>Single-cell analysis</i>.  ddd.
 
-There are many diseases associated with cleavage and polyadenlyation activites, including cancer, aging, and skin-related diseases.  For example, FIP1L1 gene, which plays a role in leukemia (Ali <i>et al.</i>, 2023), enhances usage of proximal PASs (global 3'UTR shortening), while knockdown of FIP1L1 expression leads to usage of distal PASs (global 3'UTR lengthening) (Davis <i>et al.</i>, 2022, Li <i>et al.</i>, 2015).  By profiling FIP1L1 based on expression level and modeling, PAS genomic locations chr4:+:53459611 (PolyAID: 0.9986, PolyAStrength: 0.5618, PolyA_SVM: 0.9911) and chr4:+:53459667 (PolyAID: 0.9768, PolyAStrength: -7.8462, PolyA_SVM: 0.9750) ranked at the top two (Figure 2).
+<i>APA analysis</i>.  dddd.
 
 
 <br>
@@ -72,7 +72,7 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 <br>
 
-Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tumor sample.  There are two majors clusters: (B) luminal epithelial sell Of mammary gland, and (C) fibroblast Of breast.  (D) Cell type identification by biomarker genes: PARD6B (luminal epithelial sell Of mammary gland), and CCND2 (fibroblast Of breast). (E) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown).
+Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq breast tumor sample.  There are two major clusters: (B) luminal epithelial sell Of mammary gland, and (C) fibroblast Of breast.  (D) Cell type identification by biomarker genes: PARD6B (luminal epithelial sell Of mammary gland), and CCND2 (fibroblast Of breast). (E) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown).
 
 (A)
 
@@ -113,6 +113,8 @@ Bioinformatics
 <br>
 
 ## VI. Abbreviation
+
+APA: Alternative polyadenylation <br>
 
 PAS: polyA site <br>
 
