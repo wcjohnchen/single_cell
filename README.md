@@ -93,7 +93,7 @@ Figure 3.  (A) APA genes, scRNA-seq.  (B)  APA genes, scATAC-seq.
 
 (B)
 
-<img src="figure/apa_genes_scatacseq.png" style="width: 40%; height: 40%;">
+<img src="figure/apa_genes_scatacseq.png" style="width: 30%; height: 30%;">
 
 
 
