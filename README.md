@@ -11,7 +11,7 @@ II. Methods
 
 III. Results
 
-IV. Discussion
+IV. Conclusion
 
 V. Technologies
 
@@ -97,7 +97,7 @@ Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao 
 
 <br>
 
-## IV. Discussion
+## IV. Conclusion
 
 
 
@@ -107,7 +107,7 @@ Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao 
 
 ## V. Technologies
 
-Bioinformatics
+Bioinformatics (scRNA-seq, scATAC-seq data processing), Jupyter Notebook, Python, R, VS Code, Git, Linux
 
 
 <br>
