@@ -80,7 +80,7 @@ Figure 2.  (A) Identification of scATAC-seq MCF-7 cell line by biomarker genes: 
 
 (B)
 
-<img src="figure/dotplot_rank_genes_group_scatacseq.png" style="width: 50%; height: 50%;">
+<img src="figure/dotplot_rank_genes_group_scatacseq.png" style="width: 45%; height:45%;">
 
 
 <br>
