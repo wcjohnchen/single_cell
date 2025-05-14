@@ -50,7 +50,7 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 <br>
 
-Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-seq primary breast tumor samples.  (3) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  (0) T-cell; (1) fibroblast cell; (2) macrophage; (3) vascular endothelial cell; (4) luminal L1 cell; (5) luminal L2 cell; (6) plasma cell.
+Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-seq primary breast tumor samples.  (C) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: T-cell; 1: fibroblast cell; 2: macrophage; 3: vascular endothelial cell; 4: luminal L1 cell; 5: luminal L2 cell; 6: plasma cell.
 
 
 (A)
@@ -72,27 +72,15 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 <br>
 
-Figure 2.  (A) UMAP presentation of cell type clusters in a scATAC-seq MCF-7 cell line sample.  There are two major clusters: (B) luminal epithelial sell Of mammary gland, and (C) fibroblast Of breast.  (D) Cell type identification by biomarker genes: PARD6B (luminal epithelial sell Of mammary gland), and CCND2 (fibroblast Of breast). (E) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown).
+Figure 2.  (A) Identification of scATAC-seq MCF-7 cell line by biomarker genes: BCAS1, SULF2, and ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (tope 25 highly variable genes shown).  0: MCf-7.
 
 (A)
 
-<img src="figure/UMAP_cell_type_scatacseq.png" style="width: 80%; height: 80%;">
-
-(B)
-
-<img src="figure/UMAP_epithelial_scatacseq.png" style="width: 80%; height: 80%;">
-
-(C)
-
-<img src="figure/UMAP_fibroblast_scatacseq.png" style="width: 70%; height: 70%;">
-
-(D)
-
-<img src="figure/biomarkers_scatacseq.png" style="width: 65%; height: 65%;">
+<img src="figure/biomarkers_scatacseq.png" style="width: 80%; height: 80%;">
 
 (E)
 
-<img src="figure/dotplot_rank_genes_scatacseq.png" style="width: 50%; height: 50%;">
+<img src="figure/dotplot_rank_genes_group_scatacseq.png" style="width: 50%; height: 50%;">
 
 
 <br>
