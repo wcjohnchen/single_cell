@@ -72,7 +72,7 @@ Figure 1.  UMAP presentation of (A) sample, and (B) cell type clusters in scRNA-
 
 <br>
 
-Figure 2.  (A) Identification of scATAC-seq MCF-7 cell line by biomarker genes: BCAS1, SULF2, and ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (tope 25 highly variable genes shown).  0: MCf-7.
+Figure 2.  (A) Identification of scATAC-seq MCF-7 cell line by biomarker genes: BCAS1, SULF2, and ZNF217. (B) Dotplot of MCF-7 gene expression profile.  Gene rank based on gene variability (tope 25 highly variable genes shown).  0: MCf-7.
 
 (A)
 
