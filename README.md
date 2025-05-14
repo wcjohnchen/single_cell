@@ -84,7 +84,7 @@ Figure 2.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 
 <br>
 
-Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes that were detected and differentially expressed in (A) cell types of primary breast tumors using scRNA-seq and (B) MCF-7 cells using scATAC-seq.
+Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumors using scRNA-seq and (B) MCF-7 cells using scATAC-seq.
 
 (A)
 
