@@ -85,6 +85,20 @@ Figure 2.  (A) Identification of scATAC-seq MCF-7 cell line by biomarker genes: 
 
 <br>
 
+Figure 3.  (A) APA genes, scRNA-seq.  (B)  APA genes, scATAC-seq.
+
+(A)
+
+<img src="figure/apa_genes_scrna_seq.png" style="width: 25%; height: 25%;">
+
+(B)
+
+
+
+
+
+<br>
+
 ## IV. Discussion
 
 
@@ -131,8 +145,6 @@ Germain PL, Lun A, Garcia Meixide C, Macnair W, and Robinson MD.  2021.  Doublet
 Hao Y, Hao S, Andersen-Nissen E, Mauck WM 3rd, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zager M, Hoffman P, Stoeckius M, Papalexi E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LM, Yeung B, Rogers AJ, McElrath JM, Blish CA, Gottardo R, Smibert P, and Satija R.  2021.  Integrated analysis of multimodal single-cell data.  Cell, 184(13):3573-3587.e29.  doi: 10.1016/j.cell.2021.04.048.
 
 Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, and Satija R.  2024.  Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nat Biotechnol, 42(2):293-304.  doi: 10.1038/s41587-023-01767-y.
-
-Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2.  Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
 
 Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease.  Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
 
