@@ -102,7 +102,6 @@ Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao 
 The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Heterogeous expression of 3'UTR APA genes were found in different cell population of breast cancer microenvironment, which provides additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
 
 
-
 <br>
 
 ## V. Technologies
@@ -115,10 +114,6 @@ Bioinformatics (scRNA-seq, scATAC-seq), Jupyter Notebook, Python, R, VS Code, Gi
 ## VI. Abbreviation
 
 APA: Alternative polyadenylation <br>
-
-PAS: polyA site <br>
-
-
 
 
 <br>
