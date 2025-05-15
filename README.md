@@ -99,7 +99,7 @@ Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao 
 
 ## IV. Conclusion
 
-The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Heterogeous expression of 3'UTR APA genes were found in different cell types of breast cancer microenvironment, which provides additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
+The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Heterogeous expression of 3'UTR APA genes were found in different cell population of breast cancer microenvironment, which provides additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
 
 
 
