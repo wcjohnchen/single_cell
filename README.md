@@ -42,7 +42,7 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 ## III. Results
 
-<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of ten priamry breast tumor samples consisting of 10,318 cells and 2,000 genes were analyzed.  Clusters were generated based on cell types, and were labeled with (A) sample ID and (B) cell type names.  <i>scATAC-seq</i>.  MCF-7 cell line sample consisting of 1,643 cells and 2,000 genes were analyzed.
+<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 priamry breast tumor samples consisting of 10,318 cells and 2,000 genes were analyzed.  There were 7 cell type clusters, namely fibroblast cell, luminal L1 cell, luminal L2 cell, macrophage, plasma cell, T cell, and vascular endothelial cell (Figure 1A).  Individual sample cells were then mapped to the corresponding cell type clusters (Figure 1B).  Biomarker genes were used to verify the present cluster identity: CD3E for T cell; COL1A2 for fibroblast cell; CD4 for macrophage; PECAM1 for vascular endothelial cell; CLDN4 for luminal L1 cell (Nguyen <i>et al.</i>, 2018); ANKRD30A for luminal L2 cell (Nguyen <i>et al.</i>, 2018); and IGHG1 for plasma cell.  <i>scATAC-seq</i>.  MCF-7 cell line sample consisting of 1,643 cells and 2,000 genes were analyzed.
 
 <i>APA analysis</i>.  dddd.
 
