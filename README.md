@@ -42,7 +42,7 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 ## III. Results
 
-<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 priamry breast tumor samples consisting of 10,318 cells and 2,000 genes were analyzed.  There were 7 cell type clusters, namely fibroblast cell, luminal L1 cell, luminal L2 cell, macrophage, plasma cell, T cell, and vascular endothelial cell (Figure 1A).  Individual sample cells were then mapped to the corresponding cell type clusters (Figure 1B).  Biomarker genes were used to verify the present cluster identity: CD3E for T cell; COL1A2 for fibroblast cell; CD4 for macrophage; PECAM1 for vascular endothelial cell; CLDN4 for luminal L1 cell (Nguyen <i>et al.</i>, 2018); ANKRD30A for luminal L2 cell (Nguyen <i>et al.</i>, 2018); and IGHG1 for plasma cell.  <i>scATAC-seq</i>.  MCF-7 cell line sample consisting of 1,643 cells and 2,000 genes were analyzed.
+<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 priamry breast tumor samples consisting of 10,318 cells and 2,000 genes were analyzed.  Distinct cell types were identified by leiden clustering.  There were 7 cell type clusters overall, namely fibroblast cell, luminal L1 cell, luminal L2 cell, macrophage, plasma cell, T cell, and vascular endothelial cell (Figure 1A).  Individual sample cells were then mapped to the corresponding cell type clusters (Figure 1B).  Biomarker genes were used to verify the present cluster identity: CD3E for T cell; COL1A2 for fibroblast cell; CD4 for macrophage; PECAM1 for vascular endothelial cell; CLDN4 for luminal L1 cell (Nguyen <i>et al.</i>, 2018); ANKRD30A for luminal L2 cell (Nguyen <i>et al.</i>, 2018); and IGHG1 for plasma cell (Figure 1C).  <i>scATAC-seq</i>.  MCF-7 cell line sample consisting of 1,643 cells and 2,000 genes were analyzed.
 
 <i>APA analysis</i>.  dddd.
 
@@ -138,6 +138,8 @@ Germain PL, Lun A, Garcia Meixide C, Macnair W, and Robinson MD.  2021.  Doublet
 Hao Y, Hao S, Andersen-Nissen E, Mauck WM 3rd, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zager M, Hoffman P, Stoeckius M, Papalexi E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LM, Yeung B, Rogers AJ, McElrath JM, Blish CA, Gottardo R, Smibert P, and Satija R.  2021.  Integrated analysis of multimodal single-cell data.  Cell, 184(13):3573-3587.e29.  doi: 10.1016/j.cell.2021.04.048.
 
 Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, and Satija R.  2024.  Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nat Biotechnol, 42(2):293-304.  doi: 10.1038/s41587-023-01767-y.
+
+Nguyen QH, Pervolarakis N, Blake K, Ma D, Davis RT, James N, Phung AT, Willey E, Kumar R, Jabart E, Driver I, Rock J, Goga A, Khan SA, Lawson DA, Werb Z, and Kessenbrock K.  2018.  Profiling human breast epithelial cells using single cell RNA sequencing identifies cell diversity. Nat Commun, 9(1):2028.  doi: 10.1038/s41467-018-04334-1.
 
 Qiao P, Zhang C, Shi Y, and Du H.  2024.  The role of alternative polyadenylation in breast cancer.  Front Genet, 15:1377275.  doi: 10.3389/fgene.2024.1377275.
 
