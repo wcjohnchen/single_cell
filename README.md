@@ -1,6 +1,6 @@
 # Single-Cell Transcriptomic and Chromatin Accessibility Profiling Identify Heterogenous Alternative Polyadenylation Gene Expression in Cell Types of Breast Cancer Microenvironment
 
-<img src="figure/single_cell.jpg" style="width: 80%; height: 80%;">
+<img src="figure/single_cell.jpg" style="width: 20%; height: 20%;">
 
 
 <br>
