@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="figure/single_cell.jpg" style="width: 20%; height: 20%;" margin-left: auto margin-right: auto>
+<img src="figure/single_cell.png" style="width: 40%; height: 40%;" margin-left: auto margin-right: auto>
 
 
 <br>
