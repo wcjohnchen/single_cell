@@ -75,7 +75,7 @@ Figure 1.  UMAP presentation of (A) cell type clusters, and (B) samples in scRNA
 
 <br>
 
-Figure 2.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker genes: BCAS1, SULF2, and ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCf-7.
+Figure 2.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker genes: BCAS1, SULF2, and ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
 
 (A)
 
@@ -88,7 +88,7 @@ Figure 2.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 
 <br>
 
-Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumor samples using scRNA-seq, and (B) MCF-7 sample using scATAC-seq.
+Figure 3.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumor samples using scRNA-seq, and (B) MCF-7 sample using scATAC-seq.  0: MCF-7.
 
 (A)
 
