@@ -110,7 +110,7 @@ The present study used single-cell bioinformatics data processing and analysis t
 
 ## V. Technologies
 
-Bioinformatics (scRNA-seq, scATAC-seq), Jupyter Notebook, Python, R, VS Code, Git, Linux
+Bioinformatics (scRNA-seq, scATAC-seq), Seurat, Signac, Jupyter Notebook, Python, VS Code, Git, Linux
 
 
 <br>
