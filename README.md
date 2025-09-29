@@ -53,12 +53,14 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 <br>
 
-Figure 1.  UMAP presentation of (A) cell type clusters, and (B) samples in scRNA-seq primary breast tumor samples.  (C) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: T-cell; 1: fibroblast cell; 2: macrophage; 3: vascular endothelial cell; 4: luminal L1 cell; 5: luminal L2 cell; 6: plasma cell.
+Figure 1.  UMAP presentation of (A) cell type clusters (also see interactive UMAP plot), and (B) samples in scRNA-seq primary breast tumor samples.  (C) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: T-cell; 1: fibroblast cell; 2: macrophage; 3: vascular endothelial cell; 4: luminal L1 cell; 5: luminal L2 cell; 6: plasma cell.
 
 
 (A)
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
+
+Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP1/
 
 (B)
 
