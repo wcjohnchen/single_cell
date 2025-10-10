@@ -90,7 +90,7 @@ Figure 3.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 
 (A)
 
-<img src="figure/biomarkers_scatacseq.png" style="width:40%; height: 40%;">
+<img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 (B)
 
