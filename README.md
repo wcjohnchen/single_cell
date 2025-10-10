@@ -37,7 +37,14 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Figure 1.  Workflow of single-cell ATAC-seq.
+Figure 1.  Workflow of single-cell RNA-seq.
+
+<img src="figure/workflow_scrnaseq.png" style="width:100%; height: 100%;">
+
+
+<br>
+
+Figure 2.  Workflow of single-cell ATAC-seq.
 
 <img src="figure/workflow_scatacseq.png" style="width:100%; height: 100%;">
 
@@ -60,7 +67,7 @@ Data processing.  <i>scRNA-seq</i>: data in each sample were first filtered base
 
 <br>
 
-Figure 2.  UMAP presentation of (A) cell type clusters (also see interactive UMAP plot), and (B) sample clusters in scRNA-seq primary breast tumor samples (also see interactive UMAP plot).  (C) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: T-cell; 1: fibroblast cell; 2: macrophage; 3: vascular endothelial cell; 4: luminal L1 cell; 5: luminal L2 cell; 6: plasma cell.
+Figure 3.  UMAP presentation of (A) cell type clusters (also see interactive UMAP plot), and (B) sample clusters in scRNA-seq primary breast tumor samples (also see interactive UMAP plot).  (C) Cell type identification by biomarker genes: CD3E (T cell), COL1A2 (fibroblast cell), CD14 (macrophage), PECAM1 (vein endothelial cell), CLDN4 (luminal L1 cell), ANKRD30A (luminal L2 cell), and IGHG1 (plasma cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: T-cell; 1: fibroblast cell; 2: macrophage; 3: vascular endothelial cell; 4: luminal L1 cell; 5: luminal L2 cell; 6: plasma cell.
 
 
 (A)
@@ -86,7 +93,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP2/
 
 <br>
 
-Figure 3.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker gene ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
+Figure 4.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker gene ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
 
 (A)
 
@@ -99,7 +106,7 @@ Figure 3.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 
 <br>
 
-Figure 4.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumor samples using scRNA-seq, and (B) MCF-7 sample using scATAC-seq.  0: MCF-7.
+Figure 5.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumor samples using scRNA-seq, and (B) MCF-7 sample using scATAC-seq.  0: MCF-7.
 
 (A)
 
