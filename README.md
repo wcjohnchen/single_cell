@@ -39,7 +39,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 Figure 1.  Workflow of single-cell ATAC-seq.
 
-<img src="figure/workflow_scatacseq.png" style="width: 40%; height: 40%;">
+<img src="figure/workflow_scatacseq.png" style="width:100%; height: 100%;">
 
 
 <br>
