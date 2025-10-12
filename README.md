@@ -74,7 +74,7 @@ Figure 3.  UMAP representation of cell type clusters (also see interactive UMAP 
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
-Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP1/
+Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 (B)
 
