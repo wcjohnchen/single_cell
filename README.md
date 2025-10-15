@@ -51,7 +51,7 @@ Figure 2.  Workflow of single-cell ATAC-seq.
 
 <br>
 
-**scRNA-seq**.  <i>Datasets</i>  Raw data (Chromium, 10X Genomics) were obtained from NCBI GEO accession GSE176078 (Wu <i>et al.</i>, 2021).  Samples were sequenced by Illumina sequencer and data (mapped to hg38) were generated using Cell Ranger Single Cell v2.0 (10X Genomics).  Ten samples (estrogen receptor-positive (ER+), primary breast tumor: CID3941, CID4040, CID4463, CID4535; human epidermal growth factor receptor 2-positive (HER2+), primary breast tumor: CID3838, CID3921, CID45171; triple-negative breast cancer (TNBC), primary breast tumor: CID3946, CID4465, CID44041) were selected in this study.  
+**scRNA-seq**.  <i>Datasets</i>.  Raw data (Chromium, 10X Genomics) were obtained from NCBI GEO accession GSE176078 (Wu <i>et al.</i>, 2021).  Samples were sequenced by Illumina sequencer and data (mapped to hg38) were generated using Cell Ranger Single Cell v2.0 (10X Genomics).  Ten samples (estrogen receptor-positive (ER+), primary breast tumor: CID3941, CID4040, CID4463, CID4535; human epidermal growth factor receptor 2-positive (HER2+), primary breast tumor: CID3838, CID3921, CID45171; triple-negative breast cancer (TNBC), primary breast tumor: CID3946, CID4465, CID44041) were selected in this study.  
 
 <i>Data processing</i>.  Data in each sample were first filtered based on minimum number of genes required for each cell (removed if < 200), minimum number of cells required for each gene (removed if < 100), doublet detection using SOLO model (Bernstein <i>et al.</i>, 2020), and outliers (removed if gene count per cell is greater than 98 percentile or less than 2 percentile).  Cells were also removed if mitochondrial and ribosomal gene percentages were greater than or equal to 20%.  Samples were then integrated afterward.  Data were normalized and filtered additionally for highly variable genes prior to transfer learning for cell type annotation.  Cell type reference in breast tissue data (TS_Mammary) from Tabula Sapiens Consortium (Science 376, eabl4896, 2022) was used as training labels.  SCVI model (an unsupervised generative model) was used to train data to learn latent representation, and followed by SCANVI model (a semi-supervised generative model) which was used to predict cell type for unlabled sample cells.  A neighbor graph KNN based on latent representation was built.  Leiden clustering was used to define specific cell type clusters and visualized by UMAP.  Models were implemented with svi-tools in Python. 
 
@@ -80,7 +80,7 @@ Figure 3.  UMAP representation of cell type clusters (also see interactive UMAP 
 
 Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
-(B)
+(B) T cell: CD3E.  CD8 T cell: CD8A.  CD4 T cell: CD4.  Macrophage: FCGR3A.  B cell: MS4A1.  Endothelial cell: PECAM1.  Fibroblast cell: COL1A2.  Basal cell: KRT5.  Luminal cell: CLDN4.
 
 <img src="figure/biomarkers_scrnaseq_1.png" style="width: 120%; height: 120%;">
 
