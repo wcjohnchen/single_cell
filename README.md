@@ -71,7 +71,7 @@ Figure 2.  Workflow of single-cell ATAC-seq.
 
 <br>
 
-Figure 3.  UMAP representation of cell type clusters (also see interactive UMAP plot).  (C) Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  (D) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
+Figure 3.  scRNA-seq primary breast tumor sample.  (A) UMAP representation of cell type clusters (also see interactive UMAP plot).  (B) Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  (C) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
 
 
 (A)
