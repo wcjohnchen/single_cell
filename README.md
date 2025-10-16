@@ -64,14 +64,12 @@ Figure 2.  Workflow of single-cell ATAC-seq.
 
 ## III. Results
 
-<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 919 cells and 29,733 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 8 cell type clusters, namely CD8+ T cell, CD4+ T cell, fibroblast cell, endothelial cell, macrophage, luminal cell, basal cell, and B cell (Figure 1A).  Biomarker genes were used to verify the present cluster identity (Figure 1B): CD3E was used as a pan-biomarker for T cells; CD8A for CD8 T cells; CD4 for CD4 T cells; FCGR3A for macrophages; MS4A1 for B cells; PECAM1 for endothelial cells; COL1A2 for fibroblast cells; KRT5 for basal cells; CLDN4 for luminal cells.  By profiling gene expression, heterogenity in expression levels were observed in different cell types (Figure 1C).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 2A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  The results show heterogenity within the MCF-7 cell line (Figure 2B).
-
-<i>APA analysis</i>.  Highly variable expressed genes were matched to the terminal region (TR) genes in PolyADB-v3x-LR database (https://github.com/wcjohnchen/database).  A complete list of TR genes found in scRNA-seq (1,864) and scATAC-seq data (1,789) can be viewed using a dotplot in analyze_data_sc_RNASeq.ipynb and analyze_data_sc_ATACSeq.ipynb, respectively.  In particular, there are a number of 3'UTR APA genes (104) associated with onocogenes, tumor suppressor genes, and APA regulatory factors that have been reported to play known roles in breast cancer (review paper: <i>Qiao et al.</i>, 2024).  Among those genes, COL1A2, AGR2, TIMP3, TOP2A, CCND1, CCNA2, NFIA, SNCA, TRPS1, BHLHE40, and FOXP4 were found in scRNA-seq data (Figure 3A); likewise, PDGFC, WT1, SNCA, RBBP6, FGF2, TOP2A, PTCH1, HEY2, CSTF2 (displayed 3'UTR shortening using APARENT2 model: https://github.com/wcjohnchen/ML), and CPEB1 were found in scATAC-seq data (Figure 3B).  These APA genes displayed distinct expression patterns specific to their cell types.
+<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 919 cells and 29,733 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 8 cell type clusters, namely CD8+ T cell, CD4+ T cell, fibroblast cell, endothelial cell, macrophage, luminal cell, basal cell, and B cell (Figure 3A).  Biomarker genes were used to verify the present cluster identity (Figure 3B): CD3E was used as a pan-biomarker for T cells; CD8A for CD8+ T cells; CD4 for CD4+ T cells; FCGR3A for macrophages; MS4A1 for B cells; PECAM1 for endothelial cells; COL1A2 for fibroblast cells; KRT5 for basal cells; CLDN4 for luminal cells.  By profiling gene expression, specific patterns were observed in different cell types (Figure 3C).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 4A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  Expression pattern of the MCF-7 cell line was displayed in Figure 4B.  <i>APA analysis</i>.  Highly variable expressed genes were matched to the terminal region (TR) genes in PolyADB-v3x-LR database (https://github.com/wcjohnchen/database) (Figure 5).  A complete list of TR genes found in scRNA-seq (1,864) and scATAC-seq data (1,789) can be viewed in analyze_data_sc_RNASeq.ipynb and analyze_data_sc_ATACSeq.ipynb, respectively. These APA genes displayed distinct expression patterns in their cell types.
 
 
 <br>
 
-Figure 3.  scRNA-seq primary breast tumor sample.  (A) UMAP representation of cell type clusters (also see interactive UMAP plot).  (B) Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  (C) Dotplot of gene expression profile of cell types identified.  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
+Figure 3.  scRNA-seq primary breast tumor sample.  (A) UMAP representation of cell type clusters (also see interactive UMAP plot).  (B) Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  (C) Dotplot of gene expression profile of identified cell types .  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
 
 
 (A)
@@ -106,24 +104,12 @@ Figure 4.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 <img src="figure/dotplot_rank_genes_group_scatacseq.png" style="width: 25%; height:25%;">
 
 
-<br>
-
-Figure 5.  Dot plots of previously-reported breast cancer 3'UTR APA genes (Qiao <i>et al.</i>, 2024) in (A) cell types of primary breast tumor samples using scRNA-seq, and (B) MCF-7 sample using scATAC-seq.  0: MCF-7.
-
-(A)
-
-<img src="figure/apa_genes_scrnaseq.png" style="width: 40%; height: 40%;">
-
-(B)
-
-<img src="figure/apa_genes_scatacseq.png" style="width: 22%; height: 22%;">
-
 
 <br>
 
 ## IV. Conclusion
 
-The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Heterogeous expression of 3'UTR APA genes were found in different cell population of breast cancer microenvironment.  Further downstream analysis would provide additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
+The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Specific 3'UTR APA gene expression patterns were found in different cell population of breast cancer microenvironment.  Further downstream analysis would provide additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
 
 
 <br>
