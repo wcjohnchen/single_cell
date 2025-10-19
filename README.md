@@ -37,14 +37,14 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## II. Methods
 
-Figure 1.  Workflow of single-cell RNA-seq.
+**Figure 1**.  Workflow of single-cell RNA-seq.
 
 <img src="figure/workflow_scrnaseq.png" style="width:100%; height: 100%;">
 
 
 <br>
 
-Figure 2.  Workflow of single-cell ATAC-seq.
+**Figure 2**.  Workflow of single-cell ATAC-seq.
 
 <img src="figure/workflow_scatacseq.png" style="width:100%; height: 100%;">
 
@@ -69,16 +69,16 @@ Figure 2.  Workflow of single-cell ATAC-seq.
 
 <br>
 
-Figure 3.  scRNA-seq primary breast tumor sample.  (A) UMAP representation of cell type clusters (also see interactive UMAP plot).  (B) Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  (C) Dotplot of gene expression profile of identified cell types .  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
+**Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).  **(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  **(C)** Dotplot of gene expression profile of identified cell types .  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
 
 
-(A)
+**(A)**
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
-(B) T cell: CD3E.  CD8+ T cell: CD8A.  CD4+ T cell: CD4.  Macrophage: FCGR3A.  B cell: MS4A1.  Endothelial cell: PECAM1.  Fibroblast cell: COL1A2.  Basal cell: KRT5.  Luminal cell: CLDN4.
+**(B)** T cell: CD3E.  CD8+ T cell: CD8A.  CD4+ T cell: CD4.  Macrophage: FCGR3A.  B cell: MS4A1.  Endothelial cell: PECAM1.  Fibroblast cell: COL1A2.  Basal cell: KRT5.  Luminal cell: CLDN4.
 
 <img src="figure/biomarkers_scrnaseq_1.png" style="width: 120%; height: 120%;">
 
@@ -86,20 +86,20 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-(C)
+**(C)**
 
 <img src="figure/dotplot_rank_genes_group_scrnaseq.png" style="width: 40%; height: 40%;">
 
 
 <br>
 
-Figure 4.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker gene ZNF217. (B) Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
+**Figure 4**.  scATAC-seq MCF-7 cell line sample.  **(A)** Identification by biomarker gene ZNF217. **(B)** Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
 
-(A)
+**(A)**
 
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
-(B)
+**(B)**
 
 <img src="figure/dotplot_rank_genes_group_scatacseq.png" style="width: 25%; height:25%;">
 
@@ -109,7 +109,7 @@ Figure 4.  scATAC-seq MCF-7 cell line sample.  (A) Identification by biomarker g
 
 ## IV. Conclusion
 
-The present study used single-cell bioinformatics data processing and analysis techniques to study alternative polyadenlyation.  Specific 3'UTR APA gene expression patterns were found in different cell population of breast cancer microenvironment.  Further downstream analysis would provide additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
+The present study used single-cell bioinformatics data processing and analysis techniques to explore candidate genes for alternative polyadenlyation.  Specific 3'UTR APA gene expression patterns were found in different cell population of breast cancer microenvironment.  Further downstream analysis would provide additional glimpse to how APA regulation may contribute to dynamic interaction between cell types in the diseased model.
 
 
 <br>
@@ -150,8 +150,6 @@ Hao Y, Hao S, Andersen-Nissen E, Mauck WM 3rd, Zheng S, Butler A, Lee MJ, Wilk A
 Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, and Satija R.  2024.  Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nat Biotechnol, 42(2):293-304.  doi: 10.1038/s41587-023-01767-y.
 
 Littlepage LE, Adler AS, Kouros-Mehr H, Huang G, Chou J, Krig SR, Griffith OL, Korkola JE, Qu K, Lawson DA, Xue Q, Sternlicht MD, Dijkgraaf GJ, Yaswen P, Rugo HS, Sweeney CA, Collins CC, Gray JW, Chang HY, and Werb Z.  2012.  The transcription factor ZNF217 is a prognostic biomarker and therapeutic target during breast cancer progression. Cancer Discov, 2(7):638-51.  doi: 10.1158/2159-8290.CD-12-0093.
-
-Qiao P, Zhang C, Shi Y, and Du H.  2024.  The role of alternative polyadenylation in breast cancer.  Front Genet, 15:1377275.  doi: 10.3389/fgene.2024.1377275.
 
 Sangweni NF, Dludla PV, Chellan N, Mabasa L, Sharma JR, and Johnson R.  2021.  The Implication of Low Dose Dimethyl Sulfoxide on Mitochondrial Function and Oxidative Damage in Cultured Cardiac and Cancer Cells.  Molecules, 26(23):7305.  doi: 10.3390/molecules26237305.
 
