@@ -69,14 +69,16 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 <br>
 
-**Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).  **(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  **(C)** Dotplot of gene expression profile of identified cell types .  Gene rank based on gene variability (tope 25 highly variable genes shown in each group).  0: CD8+ T Cell; 1: CD4+ T Cell; 2: Fibroblast Cell; 3: Endothelial cell; 4: Macrophage; 5: Luminal Cell; 6: Basal Cell; 7: B Cell.
+**Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).  **(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  **(C)** Heatmap of gene expression profile of identified cell types.  **(D)** TIMP3 expression in cell types of breast cancer microenvironment.
 
 
 **(A)**
 
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
+
 Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
+
 
 **(B)** T cell: CD3E.  CD8+ T cell: CD8A.  CD4+ T cell: CD4.  Macrophage: FCGR3A.  B cell: MS4A1.  Endothelial cell: PECAM1.  Fibroblast cell: COL1A2.  Basal cell: KRT5.  Luminal cell: CLDN4.
 
@@ -87,8 +89,13 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 
 **(C)**
-
+ 
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
+
+
+**(C)**
+
+<img src="figure/violin_TIMP3.png" style="width: 100%; height: 100%;">
 
 
 <br>
