@@ -110,7 +110,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 **(B)**
 
-<img src="figure/barplot_gene_expression_scatacseq.png" style="width:100%; height:100%;">
+<img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
 
 
