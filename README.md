@@ -71,9 +71,6 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 **Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).
 
-
-**(A)**
-
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 
@@ -102,10 +99,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 <br>
 
-**Figure 4**.  scATAC-seq MCF-7 cell line sample.
-
-
-**(A)** Identification by biomarker gene ZNF217.
+**Figure 4**.  scATAC-seq MCF-7 cell line sample.  **(A)** Identification by biomarker gene ZNF217.
 
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
