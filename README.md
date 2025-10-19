@@ -69,7 +69,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 <br>
 
-**Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).  **(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).  **(C)** Heatmap of gene expression profile of identified cell types.  **(D)** TIMP3 expression in cell types of breast cancer microenvironment.
+**Figure 3**.  scRNA-seq primary breast tumor sample.  **(A)** UMAP representation of cell type clusters (also see interactive UMAP plot).
 
 
 **(A)**
@@ -79,8 +79,10 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
+<br>
 
-**(B)** T cell: CD3E.  CD8+ T cell: CD8A.  CD4+ T cell: CD4.  Macrophage: FCGR3A.  B cell: MS4A1.  Endothelial cell: PECAM1.  Fibroblast cell: COL1A2.  Basal cell: KRT5.  Luminal cell: CLDN4.
+
+**(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).
 
 <img src="figure/biomarkers_scrnaseq_1.png" style="width: 120%; height: 120%;">
 
@@ -88,14 +90,14 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)**
+**(C)** Heatmap of gene expression profile of identified cell types.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
 
-**(C)**
+**(D)** TIMP3 expression in cell types of breast cancer microenvironment.
 
-<img src="figure/violin_TIMP3.png" style="width: 100%; height: 100%;">
+<img src="figure/violin_TIMP3.png" style="width: 50%; height: 50%;">
 
 
 <br>
