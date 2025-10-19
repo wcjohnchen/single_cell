@@ -88,7 +88,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 **(C)**
 
-<img src="figure/heatmap_stats_sc_scrnaseq.png" style="width: 40%; height: 40%;">
+<img src="figure/heatmap_stats_scrnaseq.png" style="width: 40%; height: 40%;">
 
 
 <br>
