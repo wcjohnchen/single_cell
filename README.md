@@ -87,7 +87,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of gene expression profile of identified cell types.
+**(C)** Heatmap of 3'UTR APA gene expression profile of identified cell types.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
@@ -104,7 +104,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 
-**(B)** Barplot of gene expression profile.  The top 25 statistically most highly expressed genes were shown.
+**(B)** Barplot of 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
