@@ -102,13 +102,15 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 
 <br>
 
-**Figure 4**.  scATAC-seq MCF-7 cell line sample.  **(A)** Identification by biomarker gene ZNF217. **(B)** Dotplot of gene expression profile.  Gene rank based on gene variability (top 50 highly variable genes shown).  0: MCF-7.
+**Figure 4**.  scATAC-seq MCF-7 cell line sample.
 
-**(A)**
+
+**(A)** Identification by biomarker gene ZNF217.
 
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
-**(B)**
+
+**(B)** Barplot of gene expression profile.  The top 25 statistically most highly expressed genes were shown.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
