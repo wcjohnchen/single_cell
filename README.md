@@ -87,7 +87,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile of identified cell types.
+**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile of identified cell types.  Both Wilcoxon (adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate < 0.05 and mean of absolute value of log2 fold change > 0.5)) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
@@ -104,7 +104,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 
-**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown as representives.
+**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown as representatives.  Wilcoxon test was peformed for each gene versus the rest within the cluster.  Genes were filterd by adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05.  Adjusted p-values were calculated by Benjamini–Hochberg procedure.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
