@@ -87,7 +87,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile of identified cell types.  Both Wilcoxon (adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate < 0.05 and mean of absolute value of log2 fold change > 0.5)) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
+**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile (154 genes) of identified cell types.  Both Wilcoxon (adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate (FDR) < 0.05 and mean of absolute value of log2 fold change (lfc_mean) > 0.5) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
@@ -104,7 +104,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 
-**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown as representatives.  Wilcoxon test was peformed for each gene versus the rest within the cluster.  Genes were filterd by adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05.  Adjusted p-values were calculated by Benjamini–Hochberg procedure.
+**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  Only the top 25 statistically most highly expressed genes were shown as representatives (1,030 genes in total).  Wilcoxon test was peformed for each gene versus the rest within the cluster.  Genes were filterd by adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05.  Adjusted p-values were calculated by Benjamini–Hochberg procedure.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
@@ -121,7 +121,7 @@ The present study used single-cell bioinformatics data processing and analysis t
 
 ## V. Technologies
 
-Bioinformatics, single-cell RNA-seq, single-cell ATAC-seq, NGS, data analysis, Seurat (R package), Signac (R package), Scanpy (Python), Jupyter Notebook (Python), Python, R, R Shiny, VS Code, Git, Linux
+Bioinformatics, single-cell RNA-seq, single-cell ATAC-seq, Next Generation Sequencing (NGS), data analysis, Seurat (R package), Signac (R package), Scanpy (Python), Jupyter Notebook (Python), Python, R, R Shiny, VS Code, Git, Linux
 
 
 <br>
