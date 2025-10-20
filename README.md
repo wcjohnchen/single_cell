@@ -64,7 +64,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## III. Results
 
-<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 919 cells and 29,733 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 8 cell type clusters, namely CD8+ T cell, CD4+ T cell, fibroblast cell, endothelial cell, macrophage, luminal cell, basal cell, and B cell (Figure 3A).  Biomarker genes were used to verify the present cluster identity (Figure 3B): CD3E was used as a pan-biomarker for T cells; CD8A for CD8+ T cells; CD4 for CD4+ T cells; FCGR3A for macrophages; MS4A1 for B cells; PECAM1 for endothelial cells; COL1A2 for fibroblast cells; KRT5 for basal cells; CLDN4 for luminal cells.  By profiling gene expression, specific patterns were observed in different cell types (Figure 3C).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 4A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  Expression pattern of the MCF-7 cell line was displayed in Figure 4B.  <i>APA analysis</i>.  Highly variable expressed genes were matched to the terminal region (TR) genes in PolyADB-v3x-LR database (https://github.com/wcjohnchen/database).  A complete list of TR genes found in scRNA-seq (1,864) and scATAC-seq data (1,789) can be viewed in analyze_data_sc_RNASeq.ipynb and analyze_data_sc_ATACSeq.ipynb, respectively. These APA genes displayed distinct expression patterns in their cell types.
+<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 919 cells and 29,733 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 8 cell type clusters, namely CD8+ T cell, CD4+ T cell, fibroblast cell, endothelial cell, macrophage, luminal cell, basal cell, and B cell (Figure 3A).  Biomarker genes were used to verify the present cluster identity (Figure 3B): CD3E was used as a pan-biomarker for T cells; CD8A for CD8+ T cells; CD4 for CD4+ T cells; FCGR3A for macrophages; MS4A1 for B cells; PECAM1 for endothelial cells; COL1A2 for fibroblast cells; KRT5 for basal cells; CLDN4 for luminal cells.  By profiling expression of highly-variable differentially expressed 3'UTR APA genes, specific patterns were observed in different cell types (Figure 3C).  TIMP3 (Figure 3D).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 4A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  Expression pattern of the MCF-7 cell line was displayed in Figure 4B.
 
 
 <br>
@@ -87,7 +87,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of 3'UTR APA gene expression profile of identified cell types.
+**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile of identified cell types.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
@@ -104,7 +104,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 
-**(B)** Barplot of 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown.
+**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  The top 25 statistically most highly expressed genes were shown as representives.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
