@@ -55,14 +55,14 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 <i>Data processing</i>.  Data in each sample were first filtered based on minimum number of genes required for each cell (removed if < 200), minimum number of cells required for each gene (removed if < 100), doublet detection using SOLO model (Bernstein <i>et al.</i>, 2020), and outliers (removed if gene count per cell is greater than 98 percentile or less than 2 percentile).  Cells were also removed if mitochondrial and ribosomal gene percentages were greater than or equal to 20%.  Samples were then integrated afterward.  Data were normalized and filtered additionally for highly variable genes prior to transfer learning for cell type annotation.  Cell type reference in breast tissue data (TS_Mammary) from Tabula Sapiens Consortium (Science 376, eabl4896, 2022) was used as training labels.  SCVI model (an unsupervised generative model) was used to train data to learn latent representation, and followed by SCANVI model (a semi-supervised generative model) which was used to predict cell type for unlabled sample cells.  A neighbor graph KNN based on latent representation was built.  Leiden clustering was used to define specific cell type clusters and visualized by UMAP.  Models were implemented with svi-tools in Python.
 
-<i>Statistics</i>.  Wilcoxon and SCVI tests were peformed for each gene across clusters for differential expression analysis.  p-value was adjusted by Benjamini–Hochberg procedure.
+<i>Statistics</i>.  Wilcoxon and SCVI tests were peformed for each gene across clusters for differential expression analysis.  <i>p</i>-value was adjusted by Benjamini–Hochberg procedure.
 
 
 **scATAC-seq**.  <i>Datasets</i>.  Preprocessed data (MCF-7 DMSO; 10X single-cell ATAC-seq) were obtained from GEO accession GSE190162 (Bommi-Reddy <i>et al.</i>, 2022).  Sample was sequenced by Illumina sequencer and data (mapped to hg38) were generated using Cell Ranger ATAC (10X Genomics).
 
 <i>Data processing</i>.  Data were further processed using Seurat v5.3.0 (Stuart <i>et al.</i>, 2019; Hao <i>et al.</i>, 2021; Hao <i>et al.</i>, 2023) and Signac v1.14.0 (Suart <i>et al.</i>, 2021) in R and Scanpy (Wolf <i>et al.</i>, 2018) in Python.  Minimum number of genes required for each cell (removed if < 200) and minimum number of cells required for each gene (removed if < 100) were required.  Doublets were removed using scDblFinder v1.16.0 (Germain <i>et al.</i>, 2022).  Cells with a high black-listed gene ratio (greater than or equal to 0.05) were removed, as previously described in the data processing method (Bommi-Reddy <i>et al.</i>, 2022).  The other two quality control metrics of ATAC-seq, namely nucleosome signal and transcriptional start site (TSS) enrichment score, were described in the ENCODE project.  Nucleosome signal is a measure of ratio of mononucleosomal to nucleosome-free fragments (https://www.encodeproject.org/atac-seq/), and TSS enrichment score is a signal-to-noise ratio of reads aggregated at the TSS to those in the flanking regions (https://www.encodeproject.org/data-standards/terms/).  The top 98% and bottom 2% were filtered out based on these two metrics.  Data were normalized.  Singular Value Decomposition (SVD)-based Leiden clustering was performed.  The chromatin accessiblilty peaks were annotated with genes from EnsDB.Hsapiens.v86.  The resultant gene activity matrix was subject to SCVI-based Leiden clustering and UMAP visualization.
 
-<i>Statistics</i>.  Wilcoxon test was peformed for each gene against all other genes within a cluster.  p-value was adjusted by Benjamini–Hochberg procedure.
+<i>Statistics</i>.  Wilcoxon test was peformed for each gene against all other genes within a cluster.  <i>p</i>-value was adjusted by Benjamini–Hochberg procedure.
 
 **APA**.  A list of terminal region (TR) APA genes (29,434) were obtained from PolyADB-v3x-LR database (https://github.com/wcjohnchen/database).
 
@@ -93,7 +93,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile (156 genes) of identified cell types.  Both Wilcoxon (adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate (FDR) < 0.05 and mean of absolute value of log2 fold change (lfc_mean) > 0.5) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
+**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile (156 genes) of identified cell types.  Both Wilcoxon (adjusted <i>p</i>-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate (FDR) < 0.05 and mean of absolute value of log2 fold change (lfc_mean) > 0.5) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
@@ -110,7 +110,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <img src="figure/biomarkers_scatacseq.png" style="width:50%; height: 50%;">
 
 
-**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  Only the top 25 statistically most highly expressed genes were shown as representatives (1,030 genes in total).  Wilcoxon test was performed for each gene versus the rest within the cluster.  Genes were filterd by adjusted p-value < 0.05 and absolute value of log2 fold change > 0.05.  Adjusted p-values were calculated by Benjamini–Hochberg procedure.
+**(B)** Barplot of highly-variable differentially expressed 3'UTR APA gene expression profile.  Only the top 25 statistically most highly expressed genes were shown as representatives (1,030 genes in total).  Wilcoxon test was performed for each gene versus the rest within the cluster.  Genes were filterd by adjusted <i>p</i>-value < 0.05 and absolute value of log2 fold change > 0.05.  Adjusted <i>p</i>-values were calculated by Benjamini–Hochberg procedure.
 
 <img src="figure/barplot_gene_expression_scatacseq.png" style="width:60%; height:60%;">
 
