@@ -105,7 +105,7 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ1/
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
 
-**(F)** TIMP3 expression in cell types of breast cancer microenvironment.
+**(F)** TIMP3 expression in cell types of breast cancer microenvironment.  Expression of TIMP3 in fibroblast, endothelial, and epithelial cell types are all statisically significant (<i>p</i> < 0.05) when comparing to that of each immune and tumor cell types.  Pairwise Mann–Whitney U test was used. 
 
 <img src="figure/violin_TIMP3.png" style="width: 50%; height: 50%;">
 
