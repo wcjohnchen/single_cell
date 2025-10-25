@@ -80,7 +80,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 <img src="figure/UMAP_cell_type_scrnaseq.png" style="width: 80%; height: 80%;">
 
 
-Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
+Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ1/
 
 <br>
 
