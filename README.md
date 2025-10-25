@@ -70,7 +70,7 @@ Single-cell sequencing is a useful technique to study gene regulation of individ
 
 ## III. Results
 
-<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 919 cells and 29,733 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 8 cell type clusters, namely CD8+ T cell, CD4+ T cell, fibroblast cell, endothelial cell, macrophage, luminal cell, basal cell, and B cell (Figure 3A).  Biomarker genes were used to verify the present cluster identity (Figure 3B): CD3E was used as a pan-biomarker for T cells; CD8A for CD8+ T cells; CD4 for CD4+ T cells; FCGR3A for macrophages; MS4A1 for B cells; PECAM1 for endothelial cells; COL1A2 for fibroblast cells; KRT5 for basal cells; and CLDN4 for luminal cells.  By profiling expression of highly-variable differentially expressed 3'UTR APA genes, specific patterns were observed in different cell types (Figure 3C).  For example, TIMP3, an inhibitor that prevents enzymes from break down extracellular matrix, displays a such distinct pattern (Figure 3D).  TIMP3 is highly activated in fibroblast and endothelial cells in breast cancer microenvironment; but downregulated in luminal cells which may contribute to enhanced tumor proliferation; expression was low in macrophages while nearly absent in lymphocytes (Bhola <i>et al.</i>, 2025).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 4A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  Expression pattern of the MCF-7 cell line was displayed in Figure 4B.  Among the significantly expressed 3′UTR APA genes, SULF2 and ZNF217 were reportedly exhibited high expression levels (Zhu <i>et al.</i>, 2015; Rangel <i>et al.</i>, 2024; Littlepage <i>et al.</i>, 2012).
+<i>Single-cell analysis</i>.  <i>scRNA-seq</i>.  A total of 10 primary breast tumor samples were initially processed, consisting of 11,375 cells and 58,870 genes.  Top 2,000 highly variable genes were selected for further analysis.  Distinct cell types were identified by Leiden clustering.  There were 15 cell type clusters identified, namely CD8+ T cell, CD4+ follicular helper (Tfh) cell, CD4+ regulatory T (Tregs) cell, extracelluar matrix (ECM) fibroblast, myofibroblastic cancer-associated fibroblast (myCAF), vascular cancer-assoicated fibroblast (vCAF), endothelial cell, junctional epithelial cell, luminal L1 cell, luminal L2 cell, tumor epithelial cell, plasma cell, macrophage, NK cell, and B cell (Figure 3A).  Biomarker genes were used to verify the present cluster identity (Figure 3B, 3C, 3D): CD3E was used as a pan-biomarker for T cells; CD8A for CD8+ T cells; CXCL13 for CD4+ Tfh cells; FOXP3 for CD4+ Tregs cells; NCAM1 for natural killer (NB) cells; CD68 for macrophages; MS4A1 for B cells; TNFRSF17 for plasma cells; PECAM1 for endothelial cells; COL1A1 was used as a pan-biomarker for fibroblast cells; PDGFRA for ECM fibroblasts; POSTN for MyCAFs; RGS5 for vCAFs; EPCAM was used as a pan-biomarker for epithelial cells; and SCGB2A2 for luminal L1 cells; KRT23 for luminal L2 cells; MLLT4 for junctional epithelial cells; DKK1 for tumor epithelial cells.  By profiling expression of highly-variable differentially expressed 3'UTR APA genes, specific patterns were observed in different cell types (Figure 3E).  For example, TIMP3, an inhibitor that prevents enzymes from break down extracellular matrix, displays a such distinct pattern (Figure 3F).  TIMP3 is mostly expressed in fibroblasts, endothelial, and epithelial cells; but downregulated in luminal cells and tumor epithelial cells; expression was low or nearly absent in lymphocytes and others (Bhola <i>et al.</i>, 2025).  <i>scATAC-seq</i>.  A MCF-7 cell line sample was initially processed with 1,588 cells and 15,963 genes.  Top 2,000 high variable genes was analyzed.  ZNF217 (Littlepage <i>et al.</i>, 2012) were selected as a biomarker for MCF-7 (Figure 4A).  Noticeably, there were some cells there were low-expressed or not labeled by the marker genes.  The likely explanation may be due to the additon of DMSO which had been reported to cause changes in cell state in response to stress (Tuncer <i>et al.</i>, 2018; Sangweni <i>et al.</i>, 2021).  Expression pattern of the MCF-7 cell line was displayed in Figure 4B.  Among the significantly expressed 3′UTR APA genes, SULF2 and ZNF217 showed high expression levels (Zhu <i>et al.</i>, 2015; Rangel <i>et al.</i>, 2024; Littlepage <i>et al.</i>, 2012).
 
 
 <br>
@@ -85,20 +85,27 @@ Interactive UMAP plot: https://wcjohnchen.shinyapps.io/UMAP_SCRNASEQ/
 <br>
 
 
-**(B)** Cell type identification by biomarker genes: CD3E (T cells), CD8A (CD8+ T cell), CD4 (CD4+ T cell), FCGR3A (macrophage), MS4A1 (B cell), PECAM1 (endothelial cell), COL1A2 (fibroblast cell), KRT5 (basal cell), and CLDN4 (luminal cell).
+**(B)** Cell type identification by biomarker genes: CD68 (macrophage), CD3E (T cells), FOXP3 (CD4+ Tregs cell), CXCL13 (CD4+ Tfh cell), CD8A (CD8+ T cell), NCAM1 (NK cell), MS4A1 (B cell), and TNFRSF17 (plasma cell).
 
-<img src="figure/biomarkers_scrnaseq_1.png" style="width: 120%; height: 120%;">
-
-
-<img src="figure/biomarkers_scrnaseq_2.png" style="width: 120%; height: 120%;">
+<img src="figure/biomarkers_scrnaseq_i.png" style="width: 120%; height: 120%;">
 
 
-**(C)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile (156 genes) of identified cell types.  Both Wilcoxon (adjusted <i>p</i>-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate (FDR) < 0.05 and mean of absolute value of log2 fold change (lfc_mean) > 0.5) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
+**(C)** Cell type identification by biomarker genes: PECAM1 (endothelial cell), COL1A1 (fibroblast cells), PDGFRA (ECM fibroblast), POSTN (myCAF), and RGS5 (vCAF).
+
+<img src="figure/biomarkers_scrnaseq_ii.png" style="width: 120%; height: 120%;">
+
+
+**(D)** Cell type identification by biomarker genes: EPCAM (epithelial cell), SCGB2A2 (luminal L1 cell), KRT23 (luminal L2 cell), MLLT4 (junctional epithelial cell), and DKK1 (tumor epithelial cell).
+
+<img src="figure/biomarkers_scrnaseq_iii.png" style="width: 120%; height: 120%;">
+
+
+**(E)** Heatmap of highly-variable differentially expressed 3'UTR APA gene expression profile (181 genes) of identified cell types.  Both Wilcoxon (adjusted <i>p</i>-value < 0.05 and absolute value of log2 fold change > 0.05) and SCVI DE tests (false discovery rate (FDR) < 0.05 and mean of absolute value of log2 fold change (lfc_mean) > 0.5) were performed for each gene across clusters.  Only statistically significant genes that were found in common from the two tests were used.  The heatmap is based on hierarchical clustering.
  
 <img src="figure/heatmap_stats_scrnaseq.png" style="width: 100%; height: 100%;">
 
 
-**(D)** TIMP3 expression in cell types of breast cancer microenvironment.
+**(F)** TIMP3 expression in cell types of breast cancer microenvironment.
 
 <img src="figure/violin_TIMP3.png" style="width: 50%; height: 50%;">
 
