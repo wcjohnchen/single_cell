@@ -153,7 +153,7 @@ I would like to kindly thank Dr. Bin Tian's lab for data availability on PAS and
 
 <br>
 
-## VIII. References
+## VIII. References.
 
 Bernstein NJ, Fong NL, Lam I, Roy MA, Hendrickson DG, and Kelley DR.  2020.  Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning.  Cell Syst, 11(1):95-101.e5.  doi: 10.1016/j.cels.2020.05.010.
 
